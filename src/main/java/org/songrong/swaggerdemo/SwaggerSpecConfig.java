@@ -29,7 +29,7 @@ public class SwaggerSpecConfig {
         SwaggerResource wsResource = new SwaggerResource();
         wsResource.setName(resource);
         wsResource.setSwaggerVersion("2.0");
-        wsResource.setLocation("/swagger-apis/" + resource + "/swagger.yaml");
+        wsResource.setLocation("/swagger-apis/" + resource + "/swagger.json");
         return wsResource;
     }
 }
